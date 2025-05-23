@@ -10,8 +10,8 @@
 
 ### 🏗️ Project Setup
 - [x] Initialize Expo project (w/ eas-build)
-- [ ] Set up folder structure
-- [ ] Set up Zustand for state management
+- [x] Set up folder structure
+- [x] Set up Zustand and MMKV for state management
 - [ ] Configure i18next for internationalization
 - [ ] Initialize Supabase backend
 - [ ] Set up LegendState for offline-first data
