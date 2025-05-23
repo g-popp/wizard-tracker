@@ -13,7 +13,7 @@
 - [x] Set up folder structure
 - [x] Set up Zustand and MMKV for state management
 - [x] Configure i18next for internationalization
-- [ ] Initialize Supabase backend
+- [x] Initialize Supabase backend
 - [ ] Set up LegendState for offline-first data
 
 ### 🔐 Authentication & User Management
