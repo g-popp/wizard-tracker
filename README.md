@@ -12,7 +12,7 @@
 - [x] Initialize Expo project (w/ eas-build)
 - [x] Set up folder structure
 - [x] Set up Zustand and MMKV for state management
-- [ ] Configure i18next for internationalization
+- [x] Configure i18next for internationalization
 - [ ] Initialize Supabase backend
 - [ ] Set up LegendState for offline-first data
 
