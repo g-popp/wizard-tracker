@@ -1,7 +1,8 @@
-import { Text, View } from "react-native";
-import { translate } from "@/lib";
+import { View } from "react-native";
+import { Text } from "@/components/ui";
 
 export default function Index() {
+
   return (
     <View
       style={{
@@ -10,7 +11,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>{translate('home.welcome')}</Text>
+      <Text tx="home.welcome" />
     </View>
   );
 }
