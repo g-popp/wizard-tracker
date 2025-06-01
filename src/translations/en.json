@@ -1,5 +1,11 @@
 {
     "home": {
-        "welcome": "Welcome"
+        "title": "Wizard Tournaments 🧙‍♂️",
+        "subtitle": "Infrastructure Ready!",
+        "status": {
+            "online": "🟢 Online",
+            "offline": "🔴 Offline",
+            "pending": "📤 {count} pending sync actions"
+        }
     }
 }
