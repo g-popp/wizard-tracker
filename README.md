@@ -1,95 +1,46 @@
-# Wizard Tracker
+# Wizard Tournaments 🧙‍♂️
 
-🧙‍♂️ An unofficial companion app for the card game Wizard by Amigo, built with Expo, React Native, and TypeScript. Track scores, manage games, and connect with friends.
+A comprehensive mobile app for tracking, competing, and connecting around the card game "Wizard" by Amigo Games.
 
-## Project Status 
+## ✨ Features
 
-🚧 This project is currently under active development.
+- **📱 Offline-first game tracking** - Never lose your game data
+- **🏆 ELO rating system** - Compete with friends and climb leaderboards  
+- **👥 Social features** - Find friends via QR codes and usernames
+- **📊 Rich statistics** - Beautiful visualizations of your game history
+- **🎯 Tournament system** - Create and manage tournaments with live tracking
+- **⚙️ Configurable rules** - Support for various Wizard variants
 
-## 📋 Development Roadmap
+## 🛠 Tech Stack
 
-### 🏗️ Project Setup
-- [x] Initialize Expo project (w/ eas-build)
-- [x] Set up folder structure
-- [x] Set up Zustand and MMKV for state management
-- [x] Configure i18next for internationalization
-- [x] Initialize Supabase backend
-- [ ] Set up LegendState for offline-first data
+- **React Native** (New Architecture) + Expo SDK 53
+- **Supabase** (Backend, Auth, Real-time)
+- **Offline-first** architecture with background sync
 
-### 🔐 Authentication & User Management
-- [ ] Create user profile management
-- [ ] Implement user registration (email/apple/google/discord)
-- [ ] Implement user login/logout
-- [ ] Generate unique QR codes for users
-- [ ] Implement password reset functionality
-- [ ] Add guest mode support
+## 📱 Screenshots
 
-### 👥 Friends & Social Features
-- [ ] Implement QR code scanner for adding friends
-- [ ] Create username search functionality
-- [ ] Build friends list management
-- [ ] Add/remove friends functionality
-- [ ] Implement friend invitations
+*Coming soon...*
 
-### 🎮 Core Game Features
-- [ ] Create new game interface
-- [ ] Add players to game (friends + guests)
-- [ ] Implement round-by-round scoring
-- [ ] Calculate Wizard scoring rules automatically
-- [ ] Save completed games
-- [ ] Game state persistence (continue later)
+## 🗺 Roadmap
 
-### 📊 Game Tracking & History
-- [ ] Display game history
-- [ ] Show detailed game results
-- [ ] Implement undo functionality
-- [ ] Game statistics (personal)
-- [ ] Win/loss ratios and averages
+- [x] **Phase 1:** Core game tracking & offline functionality
+- [ ] **Phase 2:** Social features & ELO system
+- [ ] **Phase 3:** Tournament system & live tracking
+- [ ] **Phase 4:** Premium features & monetization
 
-### 🏆 Statistics & Analytics
-- [ ] Personal performance statistics
-- [ ] Bid accuracy tracking
-- [ ] Monthly/yearly summaries
-- [ ] Friend comparisons
-- [ ] Leaderboards (friends only)
+## 🤝 Contributing
 
-### 📱 User Experience
-- [ ] Implement offline-first data sync
-- [ ] Add push notifications
-- [ ] Dark/light theme support
-- [ ] Responsive design for tablets
-- [ ] Share game results functionality
+We welcome contributions! This project aims to become the definitive platform for Wizard players worldwide.
 
-### 🔄 Data Synchronization
-- [ ] Offline game creation and play
-- [ ] Background sync when online
-- [ ] Conflict resolution for simultaneous edits
-- [ ] Guest-to-account assignment after registration
 
-### 🎨 UI/UX Polish
-- [ ] Smooth animations and transitions
-- [ ] Haptic feedback
-- [ ] Loading states and error handling
-- [ ] Form validation and user feedback
-- [ ] Accessibility improvements
+## 📄 License
 
-### 🚀 Advanced Features (Future)
-- [ ] Tournament mode
-- [ ] Live tournament website
-- [ ] Public leaderboards
-- [ ] Achievement system
-- [ ] Game variants support
+MIT License - see [LICENSE](LICENSE) for details.
 
-### 🧪 Testing & Quality
-- [ ] Unit tests for game logic
-- [ ] Integration tests for critical flows
-- [ ] E2E testing setup
-- [ ] Performance optimization
-- [ ] Security audit
+## 🎮 About Wizard
 
-### 📦 Deployment
-- [ ] App store preparation (icons, screenshots)
-- [ ] iOS App Store submission
-- [ ] Google Play Store submission
-- [ ] Beta testing with TestFlight/Internal Testing
-- [ ] Production deployment and monitoring
+Wizard is a popular trick-taking card game by Amigo Games. This app is an independent project and is not officially affiliated with Amigo Games.
+
+---
+
+**⭐ Star this repo if you're excited about better Wizard game tracking!**
